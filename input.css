@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-barlow: "Barlow", sans-serif;
+  --font-barlow-semi-condensed: "Barlow Semi Condensed", sans-serif;
+  --font-mozilla-text: "Mozilla Text", sans-serif;
+
+  --color-primary: #0023d7;
+  --color-secondary: #333333;
+  --color-tertiary: #f2f2f2;
+
+  --tracking-tight-3: -0.03em;
+
+  --text-trim-both: both;
+}
