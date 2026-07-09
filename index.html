@@ -14,127 +14,154 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class="hero-container bg-white w-full min-h-screen font-barlow flex flex-col items-center px-6.25 pt-25">
-        <div class="profile-information flex flex-col items-center" data-aos="fade-up" data-aos-duration="1000">
-            <p class="profile-domain font-normal text-secondary text-2xl tracking-tight-3">Software Engineer</p>
-            <h1 class="profile-name text-primary text-center mt-5 uppercase text-5xl font-bold tracking-tight-3">
-                Muhaideen<br>Nausar</h1>
-            <p
-                class="profile-description text-center mt-12.5 text-secondary text-xl tracking-tight-3 leading-7.5 max-w-75">
-                I
-                build SaaS, AI tools, and web apps. Fresh graduate, but I ship real projects. Currently building my
-                upcoming agency from the ground up. It is called AuraStack.</p>
-            <div class="CTA-buttons flex gap-1.25 mt-7.5">
-                <button
-                    class="font-medium text-lg text-white tracking-tight-3 bg-primary px-5 py-4.5 rounded-4xl transition-all duration-300 hover:scale-105 active:scale-95 hover:shadow-lg cursor-pointer">Projects</button>
-                <button
-                    class="bg-white text-primary text-lg font-medium px-5 py-4.5 shadow-[inset_0_0_0_3px_currentColor] rounded-4xl tracking-tight-3 transition-all duration-300 hover:scale-105 hover:bg-primary hover:text-white active:scale-95 cursor-pointer">Contact</button>
+<body class="relative">
+    <div class="md:w-full">
+        <div
+            class="hero-container bg-white w-full min-h-screen lg:min-h-fit font-barlow flex flex-col md:flex-row items-center md:justify-between px-6.25 pt-25 md:pt-0 md:max-w-270 _md:py-25 _md:gap-x-20 md:mx-auto">
+            <div class="profile-information flex flex-col md:my-25" data-aos="fade-up" data-aos-duration="1000">
+                <p class="profile-domain font-normal text-secondary text-2xl tracking-tight-3">Software Engineer</p>
+                <h1 class="profile-name text-primary mt-1 uppercase text-5xl md:text-[6rem] font-bold tracking-tight-3">
+                    Muhaideen<br>Nausar</h1>
+                <p
+                    class="profile-description mt-12.5 md:mt-17.5 text-secondary text-xl md:text-[2rem] tracking-tight-3 leading-7.5 md:leading-[45px] max-w-75 md:max-w-105">
+                    I
+                    build SaaS, AI tools, and web apps. Fresh graduate, but I ship real projects. Currently building my
+                    upcoming agency from the ground up. It is called AuraStack.</p>
+                <div class="CTA-buttons flex gap-1.25 md:gap-2.5 mt-7.5 md:mt-13">
+                    <button
+                        class="font-medium text-lg md:text-2xl text-white tracking-tight-3 bg-primary px-5 md:px-6.25 py-4.5 md:py-5 rounded-full transition-all duration-300 hover:scale-105 active:scale-95 hover:shadow-lg cursor-pointer">Projects</button>
+                    <button
+                        class="bg-white text-primary text-lg md:text-2xl font-medium px-5 md:px-6.25 py-4.5 md:py-5 shadow-[inset_0_0_0_3px_currentColor] rounded-full tracking-tight-3 transition-all duration-300 hover:scale-105 hover:bg-primary hover:text-white active:scale-95 cursor-pointer">Contact</button>
+                </div>
             </div>
-        </div>
-        <div class="profile-headshot relative w-full mt-12.5" data-aos="fade-up" data-aos-duration="1200"
-            data-aos-delay="200">
-            <img class="w-full block" src="./assets/images/headshot.png">
-            <div class="absolute bottom-0 left-0 w-full h-[75%] bg-linear-to-t from-white to-transparent"></div>
-        </div>
-    </div>
-    <div class="about-section bg-tertiary flex flex-col items-center font-barlow px-6.25 tracking-tight-3">
-        <div class="w-full flex flex-col items-center" data-aos="fade-up">
-            <h2 class="pt-20 uppercase text-secondary text-2xl font-normal">About Me</h2>
-            <p
-                class="mt-12.5 leading-11.25 text-[2rem] font-barlow-semi-condensed font-normal text-center text-[#7385E5]">
-                <span class="font-medium text-primary">I'm a software
-                    engineer
-                    specializing in
-                    privacy-first SaaS,
-                    local AI tools,
-                    and robust
-                    desktop
-                    workspaces.</span> I believe the best app experiences happen on desktop, so I focus on turning
-                complex logic
-                into clean, zero-friction solutions that put users in control.
-            </p>
-        </div>
-        <div class="grid grid-cols-1 gap-y-7.5 my-20">
-            <div class="w-62.5 h-fit px-7.5 py-3.75 border-3 border-primary rounded-[10px] flex flex-col"
-                data-aos="fade-up" data-aos-delay="0">
-                <p class="text-[4rem] text-primary font-medium">100%</p>
-                <p class="font-normal text-[1.25rem] tracking-tight-3 text-[#808080]">Privacy-First Architecture
-                </p>
-            </div>
-            <div class="w-62.5 h-fit px-7.5 py-3.75 border-3 border-primary rounded-[10px] flex flex-col"
-                data-aos="fade-up" data-aos-delay="100">
-                <p class="text-[4rem] text-primary font-medium">3</p>
-                <p class="font-normal text-[1.25rem] tracking-tight-3 text-[#808080]">Daily Stack Technologies
-                </p>
-            </div>
-            <div class="w-62.5 h-fit px-7.5 py-3.75 border-3 border-primary rounded-[10px] flex flex-col"
-                data-aos="fade-up" data-aos-delay="200">
-                <p class="text-[4rem] text-primary font-medium">2</p>
-                <p class="font-normal text-[1.25rem] tracking-tight-3 text-[#808080]">Core Products Shipped
-                </p>
-            </div>
-            <div class="w-62.5 h-fit px-7.5 py-3.75 border-3 border-primary rounded-[10px] flex flex-col"
-                data-aos="fade-up" data-aos-delay="300">
-                <p class="text-[4rem] text-primary font-medium">1</p>
-                <p class="font-normal text-[1.25rem] tracking-tight-3 text-[#808080]">Launchpad Agency
-                </p>
+            <div class="profile-headshot relative w-full md:min-w-[600px] md:max-h-full md:self-end mt-12.5"
+                data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                <img class="w-full block" src="./assets/images/headshot.png">
+                <div class="md:hidden absolute bottom-0 left-0 w-full h-[75%] bg-linear-to-t from-white to-transparent">
+                </div>
             </div>
         </div>
     </div>
-    <div class="projects-section bg-primary font-barlow flex flex-col items-center px-6.25">
-        <h2 class="text-white font-mozilla-text font-bold text-[2.25rem] tracking-tight-3 mt-20">Selected Work</h2>
-        <p class="font-barlow text-base font-light tracking-tight-3 text-white text-center">
-            Privacy-first tools and
-            zero-friction
-            desktop experiences.</p>
-        <div class="grid grid-cols-1 gap-y-6.25 mt-12.5 mb-20">
-            <div class="card-1 w-fit h-fit border-3 border-white p-7.5 rounded-[30px]" data-aos="fade-up">
-                <p class="font-barlow font-bold text-2xl text-white tracking-tight-3">A collection of privacy-first
-                    tools and
-                    zero-friction desktop workspaces built to solve
-                    complex problems.</p>
+    <div class="w-full bg-tertiary md:relative md:py-37.5">
+        <div
+            class="relative about-section bg-tertiary flex flex-col items-center md:items-start font-barlow px-6.25 tracking-tight-3 md:z-10 md:max-w-270 md:mx-auto md:gap-y-25">
+            <div class="w-full flex flex-col md:flex-row items-center md:items-start md:justify-between"
+                data-aos="fade-up">
+                <h2
+                    class="pt-20 uppercase text-secondary text-2xl font-normal md:text-[2rem] _md:mr-17.5 md:pt-0 md:mt-1.5">
+                    About
+                    Me</h2>
+                <p
+                    class="mt-12.5 md:mt-0 leading-11.25 text-[2rem] font-barlow-semi-condensed font-normal text-center text-[#7385E5] md:max-w-[858px] md:text-left md:text-[3rem] md:leading-[65px]">
+                    <span class="font-medium text-primary">I'm a software
+                        engineer
+                        specializing in
+                        privacy-first SaaS,
+                        local AI tools,
+                        and robust
+                        desktop
+                        workspaces.</span> I believe the best app experiences happen on desktop, so I focus on turning
+                    complex logic
+                    into clean, zero-friction solutions that put users in control.
+                </p>
             </div>
-            <div class="card-2 w-fit h-fit bg-tertiary p-7.5 rounded-[30px]" data-aos="fade-up" data-aos-delay="100">
-                <div class="project-name">
-                    <h3 class="font-bold text-2xl tracking-tight-3 text-secondary">Struct</h3>
-                    <p class="font-mozilla-text font-normal text-base text-secondary mt-1">The Frictionless Resume
-                        Builder
-                    </p>
-                    <p class="font-barlow font-medium text-base text-[#808080] mt-6">A pixel-perfect workspace that
-                        generates real-time
-                        previews and parses data into highly
-                        ATS-friendly PDF exports.</p>
-                </div>
-                <button
-                    class="bg-primary p-2.5 text-white rounded-[15px] font-normal text-sm tracking-tighter mt-10 transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer">learn
-                    more</button>
-            </div>
-            <div class="card-3 w-fit h-fit bg-tertiary p-7.5 rounded-[30px]" data-aos="fade-up" data-aos-delay="200">
-                <div class="project-name">
-                    <h3 class="font-bold text-2xl tracking-tight-3 text-secondary">IntelliBook</h3>
-                    <p class="font-mozilla-text font-normal text-base text-secondary mt-1">On-Device PDF Intelligence
-                    </p>
-                    <p class="font-barlow font-medium text-base text-[#808080] mt-6">A privacy-first tool using
-                        llama.cpp and GGUF models to analyze and query complex PDFs locally with zero data leakage.</p>
-                </div>
-                <button
-                    class="bg-primary p-2.5 text-white rounded-[15px] font-normal text-sm tracking-tighter mt-10 transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer">learn
-                    more</button>
-            </div>
-            <div class="card-4 w-fit h-fit bg-tertiary p-7.5 rounded-[30px]" data-aos="fade-up" data-aos-delay="300">
-                <div class="project-name">
-                    <h3 class="font-bold text-2xl tracking-tight-3 text-secondary">ProjectGPT</h3>
-                    <p class="font-mozilla-text font-normal text-base text-secondary mt-1">Private, Continuous AI
-                        Dialogue
-                    </p>
-                    <p class="font-barlow font-medium text-base text-[#808080] mt-6">Local inference pipelines optimized
-                        for consumer hardware, featuring an advanced memory loop for seamless multi-turn conversations.
+            <div class="md:w-full md:h-50 grid grid-cols-1 md:grid-cols-4 gap-y-7.5 my-20 md:my-0 md:gap-x-7.5">
+                <div class="w-62.5 h-fit md:w-full md:h-full px-7.5 py-3.75 border-3 border-primary rounded-[10px] flex flex-col"
+                    data-aos="fade-up" data-aos-delay="0">
+                    <p class="text-[4rem] text-primary font-medium">100%</p>
+                    <p class="font-normal text-[1.25rem] md:text-[1.5rem] tracking-tight-3 text-[#808080]">Privacy-First
+                        Architecture
                     </p>
                 </div>
-                <button
-                    class="bg-primary p-2.5 text-white rounded-[15px] font-normal text-sm tracking-tighter mt-10 transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer">learn
-                    more</button>
+                <div class="w-62.5 h-fit md:w-full md:h-full px-7.5 py-3.75 border-3 border-primary rounded-[10px] flex flex-col"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <p class="text-[4rem] text-primary font-medium">3</p>
+                    <p class="font-normal text-[1.25rem] md:text-[1.5rem] tracking-tight-3 text-[#808080]">Daily Stack
+                        Technologies
+                    </p>
+                </div>
+                <div class="w-62.5 h-fit md:w-full md:h-full px-7.5 py-3.75 border-3 border-primary rounded-[10px] flex flex-col"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <p class="text-[4rem] text-primary font-medium">2</p>
+                    <p class="font-normal text-[1.25rem] md:text-[1.5rem] tracking-tight-3 text-[#808080]">Core Products
+                        Shipped
+                    </p>
+                </div>
+                <div class="w-62.5 h-fit md:w-full md:h-full px-7.5 py-3.75 border-3 border-primary rounded-[10px] flex flex-col"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <p class="text-[4rem] text-primary font-medium">1</p>
+                    <p class="font-normal text-[1.25rem] md:text-[1.5rem] tracking-tight-3 text-[#808080]">Launchpad
+                        Agency
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="md:w-full md:bg-primary">
+        <div
+            class="projects-section bg-primary font-barlow flex flex-col items-center md:items-start px-6.25 md:max-w-[1080px] md:mx-auto">
+            <h2 class="text-white font-mozilla-text font-bold text-[2.25rem] tracking-tight-3 mt-20 md:text-[3rem]">
+                Selected
+                Work</h2>
+            <p class="font-barlow text-base font-light tracking-tight-3 text-white text-center md:text-[1.5rem]">
+                Privacy-first tools and
+                zero-friction
+                desktop experiences.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-y-6.25 mt-12.5 mb-20">
+                <div class="card-1 w-fit h-fit border-3 border-white p-7.5 rounded-[30px]" data-aos="fade-up">
+                    <p class="font-barlow font-bold text-2xl text-white tracking-tight-3">A collection of privacy-first
+                        tools and
+                        zero-friction desktop workspaces built to solve
+                        complex problems.</p>
+                </div>
+                <div class="card-2 w-fit h-fit bg-tertiary p-7.5 rounded-[30px]" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <div class="project-name">
+                        <h3 class="font-bold text-2xl tracking-tight-3 text-secondary">Struct</h3>
+                        <p class="font-mozilla-text font-normal text-base text-secondary mt-1">The Frictionless Resume
+                            Builder
+                        </p>
+                        <p class="font-barlow font-medium text-base text-[#808080] mt-6">A pixel-perfect workspace that
+                            generates real-time
+                            previews and parses data into highly
+                            ATS-friendly PDF exports.</p>
+                    </div>
+                    <button
+                        class="bg-primary p-2.5 text-white rounded-[15px] font-normal text-sm tracking-tighter mt-10 transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer">learn
+                        more</button>
+                </div>
+                <div class="card-3 w-fit h-fit bg-tertiary p-7.5 rounded-[30px]" data-aos="fade-up"
+                    data-aos-delay="200">
+                    <div class="project-name">
+                        <h3 class="font-bold text-2xl tracking-tight-3 text-secondary">IntelliBook</h3>
+                        <p class="font-mozilla-text font-normal text-base text-secondary mt-1">On-Device PDF
+                            Intelligence
+                        </p>
+                        <p class="font-barlow font-medium text-base text-[#808080] mt-6">A privacy-first tool using
+                            llama.cpp and GGUF models to analyze and query complex PDFs locally with zero data leakage.
+                        </p>
+                    </div>
+                    <button
+                        class="bg-primary p-2.5 text-white rounded-[15px] font-normal text-sm tracking-tighter mt-10 transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer">learn
+                        more</button>
+                </div>
+                <div class="card-4 w-fit h-fit bg-tertiary p-7.5 rounded-[30px]" data-aos="fade-up"
+                    data-aos-delay="300">
+                    <div class="project-name">
+                        <h3 class="font-bold text-2xl tracking-tight-3 text-secondary">ProjectGPT</h3>
+                        <p class="font-mozilla-text font-normal text-base text-secondary mt-1">Private, Continuous AI
+                            Dialogue
+                        </p>
+                        <p class="font-barlow font-medium text-base text-[#808080] mt-6">Local inference pipelines
+                            optimized
+                            for consumer hardware, featuring an advanced memory loop for seamless multi-turn
+                            conversations.
+                        </p>
+                    </div>
+                    <button
+                        class="bg-primary p-2.5 text-white rounded-[15px] font-normal text-sm tracking-tighter mt-10 transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer">learn
+                        more</button>
+                </div>
             </div>
         </div>
     </div>
@@ -155,8 +182,10 @@
                 </div>
                 <div>
                     <h4 class="font-semibold text-2xl tracking-tight-3">Focus & Vision</h4>
-                    <p class="font-normal text-xl tracking-tight-3 mt-2">Independent Software Engineer actively shipping
-                        privacy-first apps and robust desktop tools. Currently laying the groundwork for AuraStack, an
+                    <p class="font-normal text-xl tracking-tight-3 mt-2">Independent Software Engineer actively
+                        shipping
+                        privacy-first apps and robust desktop tools. Currently laying the groundwork for AuraStack,
+                        an
                         upcoming initiative focused on empowering businesses through digital tool integration and
                         strategic development.</p>
                 </div>
@@ -186,10 +215,12 @@
         </div>
     </div>
     <div class="footer-section font-barlow bg-primary px-7.5 pt-20 pb-7.5 flex flex-col items-center">
-        <h4 class="font-bold text-[2.25rem] text-center text-white leading-10 tracking-tight-3" data-aos="fade-up">Got a
+        <h4 class="font-bold text-[2.25rem] text-center text-white leading-10 tracking-tight-3" data-aos="fade-up">
+            Got a
             complex problem?
         </h4>
-        <p class="font-medium text-xl text-white tracking-tight-3 mt-6.25" data-aos="fade-up" data-aos-delay="100">Let's
+        <p class="font-medium text-xl text-white tracking-tight-3 mt-6.25" data-aos="fade-up" data-aos-delay="100">
+            Let's
             break it down!</p>
         <div>
             <a class="flex items-center mt-15 group cursor-pointer" href="mailto:muhaideennausar@proton.me"
@@ -241,12 +272,14 @@
             </div>
         </div>
         <div class="footer-address mt-12.5">
-            <h2 class="font-barlow font-bold text-2xl tracking-tight-3 text-white text-center tracking-tight-3">Chennai,
+            <h2 class="font-barlow font-bold text-2xl tracking-tight-3 text-white text-center tracking-tight-3">
+                Chennai,
                 Tamil Nadu</h2>
             <p class="font-barlow font-medium text-white text-md mt-1 tracking-tight-3">Actively seeking developer
                 roles.</p>
         </div>
-        <p class="footer-credits text-white text-center font-medium font-barlow text-md tracking-tight-3 mt-12.5">&copy;
+        <p class="footer-credits text-white text-center font-medium font-barlow text-md tracking-tight-3 mt-12.5">
+            &copy;
             2026
             Muhaideen Nausar.<br>
             All rights reserved.</p>
