@@ -18,12 +18,14 @@
     <div class="md:w-full">
         <div
             class="hero-container bg-white w-full min-h-screen lg:min-h-fit font-barlow flex flex-col md:flex-row items-center md:justify-between px-6.25 pt-25 md:pt-0 md:max-w-270 _md:py-25 _md:gap-x-20 md:mx-auto">
-            <div class="profile-information flex flex-col md:my-25" data-aos="fade-up" data-aos-duration="1000">
+            <div class="profile-information flex flex-col items-center md:items-start md:my-25" data-aos="fade-up"
+                data-aos-duration="1000">
                 <p class="profile-domain font-normal text-secondary text-2xl tracking-tight-3">Software Engineer</p>
-                <h1 class="profile-name text-primary mt-1 uppercase text-5xl md:text-[6rem] font-bold tracking-tight-3">
+                <h1
+                    class="profile-name text-primary text-center md:text-left mt-1 uppercase text-5xl md:text-[6rem] font-bold tracking-tight-3">
                     Muhaideen<br>Nausar</h1>
                 <p
-                    class="profile-description mt-12.5 md:mt-17.5 text-secondary text-xl md:text-[2rem] tracking-tight-3 leading-7.5 md:leading-[45px] max-w-75 md:max-w-105">
+                    class="profile-description mt-12.5 md:mt-17.5 text-secondary text-center md:text-left text-xl md:text-[2rem] tracking-tight-3 leading-7.5 md:leading-[45px] max-w-75 md:max-w-105">
                     I
                     build SaaS, AI tools, and web apps. Fresh graduate, but I ship real projects. Currently building my
                     upcoming agency from the ground up. It is called AuraStack.</p>
@@ -99,7 +101,7 @@
     </div>
     <div class="md:w-full md:bg-primary">
         <div
-            class="projects-section bg-primary font-barlow flex flex-col items-center md:items-start px-6.25 md:max-w-[1080px] md:mx-auto">
+            class="projects-section bg-primary font-barlow flex flex-col items-center md:items-start px-6.25 md:mx-auto md:max-w-[1080px]">
             <h2 class="text-white font-mozilla-text font-bold text-[2.25rem] tracking-tight-3 mt-20 md:text-[3rem]">
                 Selected
                 Work</h2>
@@ -107,182 +109,212 @@
                 Privacy-first tools and
                 zero-friction
                 desktop experiences.</p>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-y-6.25 mt-12.5 mb-20">
-                <div class="card-1 w-fit h-fit border-3 border-white p-7.5 rounded-[30px]" data-aos="fade-up">
-                    <p class="font-barlow font-bold text-2xl text-white tracking-tight-3">A collection of privacy-first
+            <div class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-y-6.25 md:gap-x-5 mt-12.5 mb-20">
+                <div class="card-1 w-fit md:h-full h-fit border-3 border-white p-7.5 md:py-12.5 rounded-[30px]"
+                    data-aos="fade-up">
+                    <p
+                        class="font-barlow font-bold text-2xl md:text-[2.25rem] text-white tracking-tight-3 md:leading-[50px]">
+                        A collection
+                        of privacy-first
                         tools and
                         zero-friction desktop workspaces built to solve
                         complex problems.</p>
                 </div>
-                <div class="card-2 w-fit h-fit bg-tertiary p-7.5 rounded-[30px]" data-aos="fade-up"
+                <div class="card-2 w-fit md:h-full h-fit bg-tertiary p-7.5 md:py-12.5 rounded-[30px]" data-aos="fade-up"
                     data-aos-delay="100">
                     <div class="project-name">
-                        <h3 class="font-bold text-2xl tracking-tight-3 text-secondary">Struct</h3>
-                        <p class="font-mozilla-text font-normal text-base text-secondary mt-1">The Frictionless Resume
+                        <h3 class="font-bold text-2xl md:text-[2.5rem] tracking-tight-3 text-secondary">Struct</h3>
+                        <p class="font-mozilla-text font-normal text-base md:text-2xl text-secondary mt-1">
+                            The
+                            Frictionless Resume
                             Builder
                         </p>
-                        <p class="font-barlow font-medium text-base text-[#808080] mt-6">A pixel-perfect workspace that
+                        <p class="font-barlow font-medium text-base md:text-2xl md:leading-[35px] text-[#808080] mt-6">A
+                            pixel-perfect
+                            workspace that
                             generates real-time
                             previews and parses data into highly
                             ATS-friendly PDF exports.</p>
                     </div>
                     <button
-                        class="bg-primary p-2.5 text-white rounded-[15px] font-normal text-sm tracking-tighter mt-10 transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer">learn
+                        class="bg-primary p-2.5 text-white rounded-[15px] font-normal text-sm tracking-tighter mt-10 transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer md:text-xl md:px-5 md:py-3.75">learn
                         more</button>
                 </div>
-                <div class="card-3 w-fit h-fit bg-tertiary p-7.5 rounded-[30px]" data-aos="fade-up"
+                <div class="card-3 w-fit md:h-full h-fit bg-tertiary p-7.5 md:py-12.5 rounded-[30px]" data-aos="fade-up"
                     data-aos-delay="200">
                     <div class="project-name">
-                        <h3 class="font-bold text-2xl tracking-tight-3 text-secondary">IntelliBook</h3>
-                        <p class="font-mozilla-text font-normal text-base text-secondary mt-1">On-Device PDF
+                        <h3 class="font-bold text-2xl md:text-[2.5rem] tracking-tight-3 text-secondary">IntelliBook</h3>
+                        <p class="font-mozilla-text font-normal text-base md:text-2xl text-secondary mt-1">
+                            On-Device PDF
                             Intelligence
                         </p>
-                        <p class="font-barlow font-medium text-base text-[#808080] mt-6">A privacy-first tool using
+                        <p class="font-barlow font-medium text-base md:text-2xl md:leading-[35px] text-[#808080] mt-6">A
+                            privacy-first
+                            tool using
                             llama.cpp and GGUF models to analyze and query complex PDFs locally with zero data leakage.
                         </p>
                     </div>
                     <button
-                        class="bg-primary p-2.5 text-white rounded-[15px] font-normal text-sm tracking-tighter mt-10 transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer">learn
+                        class="bg-primary p-2.5 text-white rounded-[15px] font-normal text-sm tracking-tighter mt-10 transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer md:text-xl md:px-5 md:py-3.75">learn
                         more</button>
                 </div>
-                <div class="card-4 w-fit h-fit bg-tertiary p-7.5 rounded-[30px]" data-aos="fade-up"
+                <div class="card-4 w-fit md:h-full h-fit bg-tertiary p-7.5 md:py-12.5 rounded-[30px]" data-aos="fade-up"
                     data-aos-delay="300">
                     <div class="project-name">
-                        <h3 class="font-bold text-2xl tracking-tight-3 text-secondary">ProjectGPT</h3>
-                        <p class="font-mozilla-text font-normal text-base text-secondary mt-1">Private, Continuous AI
+                        <h3 class="font-bold text-2xl md:text-[2.5rem] tracking-tight-3 text-secondary">ProjectGPT</h3>
+                        <p class="font-mozilla-text font-normal text-base md:text-2xl text-secondary mt-1">
+                            Private,
+                            Continuous AI
                             Dialogue
                         </p>
-                        <p class="font-barlow font-medium text-base text-[#808080] mt-6">Local inference pipelines
+                        <p class="font-barlow font-medium text-base md:text-2xl md:leading-[35px] text-[#808080] mt-6">
+                            Local inference
+                            pipelines
                             optimized
                             for consumer hardware, featuring an advanced memory loop for seamless multi-turn
                             conversations.
                         </p>
                     </div>
                     <button
-                        class="bg-primary p-2.5 text-white rounded-[15px] font-normal text-sm tracking-tighter mt-10 transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer">learn
+                        class="bg-primary p-2.5 text-white rounded-[15px] font-normal text-sm tracking-tighter mt-10 transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer md:text-xl md:px-5 md:py-3.75">learn
                         more</button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="background-section flex flex-col items-center bg-tertiary px-7.5 py-20 font-barlow">
-        <h3 class="font-mozilla-text font-bold text-secondary text-[2.25rem] text-center leading-12 tracking-tight-3"
-            data-aos="fade-up">
-            Background<br>&
-            Stack</h3>
-        <p class="font-light text-base
-            tracking-tight-3 text-secondary" data-aos="fade-up" data-aos-delay="100">The foundation and the tools I use
-            to ship.</p>
-        <div class="grid grid-cols-1 w-full mt-12.5 gap-y-5">
-            <div class="h-fit px-5 py-6.25 bg-primary text-white rounded-[20px] flex flex-col gap-y-10"
+    <div class="bg-tertiary">
+        <div
+            class="background-section flex flex-col items-center md:items-start md:max-w-[1080px] md:mx-auto bg-tertiary px-7.5 py-20 md:py-25 font-barlow">
+            <h3 class="font-mozilla-text font-bold text-secondary text-[2.25rem] text-center leading-12 tracking-tight-3 w-50 md:w-fit md:text-left md:text-[3rem]"
                 data-aos="fade-up">
-                <div>
-                    <h4 class="font-semibold text-2xl tracking-tight-3">Education</h4>
-                    <p class="font-medium text-xl tracking-tight-3 mt-2">B.Tech in Information Technology</p>
+                Background &
+                Stack</h3>
+            <p class="font-light text-base
+            tracking-tight-3 text-secondary md:mt-6 md:text-2xl" data-aos="fade-up" data-aos-delay="100">The foundation
+                and the tools I use
+                to ship.</p>
+            <div class="grid grid-cols-1 md:grid-cols-5 md:grid-rows-1 w-full mt-12.5 gap-y-5 md:gap-x-12.5">
+                <div class="h-fit md:h-auto px-5 py-6.25 md:p-7.5 bg-primary text-white rounded-[20px] flex flex-col gap-y-10 md:col-span-3"
+                    data-aos="fade-up">
+                    <div>
+                        <h4 class="font-semibold text-2xl md:text-[2rem] tracking-tight-3">Education</h4>
+                        <p class="font-medium text-xl md:text-2xl tracking-tight-3 mt-2">B.Tech in Information
+                            Technology</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-2xl md:text-[2rem] tracking-tight-3">Focus & Vision</h4>
+                        <p class="font-normal text-xl tracking-tight-3 mt-2">Independent Software Engineer actively
+                            shipping
+                            privacy-first apps and robust desktop tools. Currently laying the groundwork for AuraStack,
+                            an
+                            upcoming initiative focused on empowering businesses through digital tool integration and
+                            strategic development.</p>
+                    </div>
                 </div>
-                <div>
-                    <h4 class="font-semibold text-2xl tracking-tight-3">Focus & Vision</h4>
-                    <p class="font-normal text-xl tracking-tight-3 mt-2">Independent Software Engineer actively
-                        shipping
-                        privacy-first apps and robust desktop tools. Currently laying the groundwork for AuraStack,
-                        an
-                        upcoming initiative focused on empowering businesses through digital tool integration and
-                        strategic development.</p>
-                </div>
-            </div>
-            <div class="h-fit px-5 py-6.25 bg-primary text-white rounded-[20px] flex flex-col gap-y-10"
-                data-aos="fade-up" data-aos-delay="200">
-                <h4 class="font-semibold text-2xl tracking-tight-3">Languages and Tools</h4>
-                <div class="grid grid-cols-4 gap-x-5 gap-y-6">
-                    <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
-                        src="./assets/icons/python.svg" alt="Python">
-                    <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
-                        src="./assets/icons/supabase.svg" alt="Supabase">
-                    <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
-                        src="./assets/icons/postgresql.svg" alt="PostgreSQL">
-                    <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
-                        src="./assets/icons/typescript.svg" alt="TypeScript">
-                    <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
-                        src="./assets/icons/docker.svg" alt="Docker">
-                    <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
-                        src="./assets/icons/nodejs.svg" alt="NodeJS">
-                    <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
-                        src="./assets/icons/nextjs.svg" alt="NextJS">
-                    <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
-                        src="./assets/icons/tailwindcss.svg" alt="TailwindCSS">
+                <div class="h-fit md:h-auto px-5 py-6.25 md:p-7.5 bg-primary text-white rounded-[20px] flex flex-col gap-y-10 md:col-span-2"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <h4 class="font-semibold text-2xl md:text-[2rem] tracking-tight-3">Languages and Tools</h4>
+                    <div class="grid grid-cols-4 gap-x-5 gap-y-6 md:gap-y-0 md:h-full _md:content-between">
+                        <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
+                            src="./assets/icons/python.svg" alt="Python">
+                        <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
+                            src="./assets/icons/supabase.svg" alt="Supabase">
+                        <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
+                            src="./assets/icons/postgresql.svg" alt="PostgreSQL">
+                        <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
+                            src="./assets/icons/typescript.svg" alt="TypeScript">
+                        <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
+                            src="./assets/icons/docker.svg" alt="Docker">
+                        <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
+                            src="./assets/icons/nodejs.svg" alt="NodeJS">
+                        <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
+                            src="./assets/icons/nextjs.svg" alt="NextJS">
+                        <img class="block w-full h-full object-contain transition-transform duration-300 hover:scale-115"
+                            src="./assets/icons/tailwindcss.svg" alt="TailwindCSS">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer-section font-barlow bg-primary px-7.5 pt-20 pb-7.5 flex flex-col items-center">
-        <h4 class="font-bold text-[2.25rem] text-center text-white leading-10 tracking-tight-3" data-aos="fade-up">
-            Got a
-            complex problem?
-        </h4>
-        <p class="font-medium text-xl text-white tracking-tight-3 mt-6.25" data-aos="fade-up" data-aos-delay="100">
-            Let's
-            break it down!</p>
-        <div>
-            <a class="flex items-center mt-15 group cursor-pointer" href="mailto:muhaideennausar@proton.me"
-                data-aos="zoom-in" data-aos-delay="200"><button
-                    class="cursor-pointer bg-white h-16 px-6.25 rounded-full text-primary font-barlow font-medium text-xl tracking-tight-3">
-                    Send an Email
-                </button>
+    <div class="bg-primary">
+        <div
+            class="footer-section font-barlow bg-primary px-7.5 pt-20 pb-7.5 flex flex-col items-center md:items-start md:max-w-[1080px] md:mx-auto md:pt-25 md:pb-12.5">
+            <h4 class="font-bold text-[2.25rem] md:text-[3rem] text-center text-white leading-10 tracking-tight-3"
+                data-aos="fade-up">
+                Got a
+                complex problem?
+            </h4>
+            <p class="font-medium text-xl md:text-[2rem] text-white tracking-tight-3 mt-6.25" data-aos="fade-up"
+                data-aos-delay="100">
+                Let's
+                break it down!</p>
+            <div>
+                <a class="flex items-center mt-15 group cursor-pointer" href="mailto:muhaideennausar@proton.me"
+                    data-aos="zoom-in" data-aos-delay="200"><button
+                        class="cursor-pointer bg-white h-16 px-6.25 md:px-5 rounded-full text-primary font-barlow font-medium text-xl md:text-2xl  tracking-tight-3">
+                        Send an Email
+                    </button>
 
-                <div
-                    class="pointer-events-none h-16 w-16 bg-white rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2 group-active:translate-x-2">
-                    <img class="" src="./assets/icons/arrow_right.svg" alt="Arrow Right">
+                    <div
+                        class="pointer-events-none h-16 w-16 bg-white rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2 group-active:translate-x-2">
+                        <img class="" src="./assets/icons/arrow_right.svg" alt="Arrow Right">
+                    </div>
+                </a>
+            </div>
+            <div class="footer md:w-full md:h-fit md:flex md:justify-between md:items-center md:mt-37.5">
+                <div class="social-icons flex justify-center gap-2.5 mt-25  md:order-2 md:mt-0">
+                    <a href="https://www.linkedin.com/in/muhaideen-nausar/" target="_blank"><span
+                            class="block w-12.5 h-12.5 bg-white flex items-center justify-center rounded-full transition-all duration-300 hover:scale-110 active:scale-95 hover:shadow-md">
+                            <svg class="w-6.25" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 13.5 14">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: #374ca0;
+                                            stroke-width: 0px;
+                                        }
+                                    </style>
+                                </defs>
+                                <path class="cls-1"
+                                    d="m2.5,5v8c0,.55-.45,1-1,1s-1-.45-1-1V5c0-.55.45-1,1-1s1,.45,1,1Zm11,3.5v4.5c0,.55-.45,1-1,1s-1-.45-1-1v-4.5c0-1.38-1.12-2.5-2.5-2.5s-2.5,1.12-2.5,2.5v4.5c0,.55-.45,1-1,1s-1-.45-1-1V5c0-.55.45-1,1.01-.99.46,0,.86.32.97.77,2.06-1.4,4.86-.86,6.25,1.2.51.75.78,1.62.78,2.52ZM3,1.5c0,.83-.67,1.5-1.5,1.5s-1.5-.67-1.5-1.5S.67,0,1.5,0s1.5.67,1.5,1.5Z" />
+                            </svg>
+                        </span></a>
+                    <a href="https://github.com/muhaideennausar" target="_blank"><span
+                            class="block w-12.5 h-12.5 bg-white flex items-center justify-center rounded-full transition-all duration-300 hover:scale-110 active:scale-95 hover:shadow-md">
+                            <svg class="w-7.5" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 27 27">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: #0023d7;
+                                            stroke-width: 0px;
+                                        }
+                                    </style>
+                                </defs>
+                                <path class="cls-1"
+                                    d="m26.04,6.46c.62-1.99.37-4.15-.67-5.96C25.19.19,24.86,0,24.5,0c-2.36,0-4.59,1.11-6,3h-3C14.09,1.11,11.86,0,9.5,0c-.36,0-.69.19-.87.5-1.05,1.81-1.29,3.97-.67,5.96-.62,1.08-.95,2.3-.96,3.54v1c0,3.5,2.59,6.46,6.06,6.93-.68.88-1.06,1.96-1.06,3.07v1h-3c-1.66,0-3-1.34-3-3,0-2.76-2.24-5-5-5-.55,0-1,.45-1,1s.45,1,1,1c1.66,0,3,1.34,3,3,0,2.76,2.24,5,5,5h3v2c0,.55.45,1,1,1s1-.45,1-1v-5c0-1.66,1.34-3,3-3s3,1.34,3,3v5c0,.55.45,1,1,1s1-.45,1-1v-5c0-1.11-.37-2.19-1.06-3.07,3.47-.48,6.05-3.44,6.06-6.93v-1c-.01-1.24-.34-2.46-.96-3.54Zm-1.04,4.54c0,2.76-2.24,5-5,5h-6c-2.76,0-5-2.24-5-5v-1c.01-1,.31-1.98.86-2.81.21-.28.26-.64.14-.96-.53-1.36-.49-2.87.1-4.2,1.66.18,3.14,1.1,4.04,2.51.18.29.5.46.84.46h4.04c.34,0,.66-.17.84-.46.9-1.41,2.38-2.33,4.04-2.51.59,1.33.62,2.84.1,4.2-.12.32-.08.68.12.96.56.83.86,1.81.88,2.81v1Z" />
+                            </svg>
+                        </span></a>
                 </div>
-            </a>
-        </div>
-        <div class="footer">
-            <div class="social-icons flex gap-2.5 mt-25">
-                <a href="https://www.linkedin.com/in/muhaideen-nausar/" target="_blank"><span
-                        class="block w-12.5 h-12.5 bg-white flex items-center justify-center rounded-full transition-all duration-300 hover:scale-110 active:scale-95 hover:shadow-md">
-                        <svg class="w-6.25" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 13.5 14">
-                            <defs>
-                                <style>
-                                    .cls-1 {
-                                        fill: #374ca0;
-                                        stroke-width: 0px;
-                                    }
-                                </style>
-                            </defs>
-                            <path class="cls-1"
-                                d="m2.5,5v8c0,.55-.45,1-1,1s-1-.45-1-1V5c0-.55.45-1,1-1s1,.45,1,1Zm11,3.5v4.5c0,.55-.45,1-1,1s-1-.45-1-1v-4.5c0-1.38-1.12-2.5-2.5-2.5s-2.5,1.12-2.5,2.5v4.5c0,.55-.45,1-1,1s-1-.45-1-1V5c0-.55.45-1,1.01-.99.46,0,.86.32.97.77,2.06-1.4,4.86-.86,6.25,1.2.51.75.78,1.62.78,2.52ZM3,1.5c0,.83-.67,1.5-1.5,1.5s-1.5-.67-1.5-1.5S.67,0,1.5,0s1.5.67,1.5,1.5Z" />
-                        </svg>
-                    </span></a>
-                <a href="https://github.com/muhaideennausar" target="_blank"><span
-                        class="block w-12.5 h-12.5 bg-white flex items-center justify-center rounded-full transition-all duration-300 hover:scale-110 active:scale-95 hover:shadow-md">
-                        <svg class="w-7.5" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 27 27">
-                            <defs>
-                                <style>
-                                    .cls-1 {
-                                        fill: #0023d7;
-                                        stroke-width: 0px;
-                                    }
-                                </style>
-                            </defs>
-                            <path class="cls-1"
-                                d="m26.04,6.46c.62-1.99.37-4.15-.67-5.96C25.19.19,24.86,0,24.5,0c-2.36,0-4.59,1.11-6,3h-3C14.09,1.11,11.86,0,9.5,0c-.36,0-.69.19-.87.5-1.05,1.81-1.29,3.97-.67,5.96-.62,1.08-.95,2.3-.96,3.54v1c0,3.5,2.59,6.46,6.06,6.93-.68.88-1.06,1.96-1.06,3.07v1h-3c-1.66,0-3-1.34-3-3,0-2.76-2.24-5-5-5-.55,0-1,.45-1,1s.45,1,1,1c1.66,0,3,1.34,3,3,0,2.76,2.24,5,5,5h3v2c0,.55.45,1,1,1s1-.45,1-1v-5c0-1.66,1.34-3,3-3s3,1.34,3,3v5c0,.55.45,1,1,1s1-.45,1-1v-5c0-1.11-.37-2.19-1.06-3.07,3.47-.48,6.05-3.44,6.06-6.93v-1c-.01-1.24-.34-2.46-.96-3.54Zm-1.04,4.54c0,2.76-2.24,5-5,5h-6c-2.76,0-5-2.24-5-5v-1c.01-1,.31-1.98.86-2.81.21-.28.26-.64.14-.96-.53-1.36-.49-2.87.1-4.2,1.66.18,3.14,1.1,4.04,2.51.18.29.5.46.84.46h4.04c.34,0,.66-.17.84-.46.9-1.41,2.38-2.33,4.04-2.51.59,1.33.62,2.84.1,4.2-.12.32-.08.68.12.96.56.83.86,1.81.88,2.81v1Z" />
-                        </svg>
-                    </span></a>
+
+                <div class="footer-address mt-12.5 md:order-1 md:mt-0">
+                    <h2
+                        class="font-barlow font-bold text-2xl tracking-tight-3 text-white text-center md:text-left tracking-tight-3 md:text-[2rem]">
+                        Chennai,
+                        Tamil Nadu</h2>
+                    <p class="font-barlow font-medium text-white text-md md:text-2xl mt-1 tracking-tight-3">Actively
+                        seeking
+                        developer
+                        roles.</p>
+                </div>
+                <p
+                    class="footer-credits text-white text-center md:text-right font-medium font-barlow text-md md:text-2xl tracking-tight-3 mt-12.5 md:order-3 md:mt-0">
+                    &copy;
+                    2026
+                    Muhaideen Nausar.<br>
+                    All rights reserved.</p>
             </div>
         </div>
-        <div class="footer-address mt-12.5">
-            <h2 class="font-barlow font-bold text-2xl tracking-tight-3 text-white text-center tracking-tight-3">
-                Chennai,
-                Tamil Nadu</h2>
-            <p class="font-barlow font-medium text-white text-md mt-1 tracking-tight-3">Actively seeking developer
-                roles.</p>
-        </div>
-        <p class="footer-credits text-white text-center font-medium font-barlow text-md tracking-tight-3 mt-12.5">
-            &copy;
-            2026
-            Muhaideen Nausar.<br>
-            All rights reserved.</p>
     </div>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
