@@ -1013,9 +1013,9 @@
       line-height: 65px;
     }
   }
-  .lg\:min-h-fit {
+  .lg\:min-h-screen {
     @media (width >= 64rem) {
-      min-height: fit-content;
+      min-height: 100vh;
     }
   }
 }
